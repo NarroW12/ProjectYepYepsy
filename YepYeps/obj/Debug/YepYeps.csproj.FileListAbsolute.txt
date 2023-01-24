@@ -1,0 +1,13 @@
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\bin\Debug\YepYeps.exe.config
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\bin\Debug\YepYeps.exe
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\bin\Debug\YepYeps.pdb
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.csproj.AssemblyReference.cache
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.Form1.resources
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.Properties.Resources.resources
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.csproj.GenerateResource.cache
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.exe
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.pdb
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.Form2Gra.resources
+C:\Users\Jakub\Desktop\programowanie obiektowe Hawryluk\Projekt\YepYeps\YepYeps\obj\Debug\YepYeps.Form3Helper.resources

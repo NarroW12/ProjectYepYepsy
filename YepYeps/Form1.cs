@@ -16,5 +16,19 @@ namespace YepYeps
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2Gra form2= new Form2Gra();
+            form2.ShowDialog();
+            this.Close();
+        }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            Form3Helper helper = new Form3Helper();
+            helper.ShowDialog();
+            this.Close();
+        }
     }
 }

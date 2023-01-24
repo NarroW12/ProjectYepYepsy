@@ -1,1 +1,4 @@
-TO jest test czy działa
+Gra polega na powtórzeniu odpowiednio kolejnych wyświetlanych żarówek z dźwiękiem.
+Za każdym razem gdy powtórzysz dostaniesz 10 punktów
+ale pamiętaj że, wyświetlanych żarówek będzie o jedną więcej do powtórzenia i
+za każdym razem, gdy Ci się uda będzie się coraz trudniej 

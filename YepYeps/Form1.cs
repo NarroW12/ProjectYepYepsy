@@ -30,5 +30,10 @@ namespace YepYeps
             helper.ShowDialog();
             this.Close();
         }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

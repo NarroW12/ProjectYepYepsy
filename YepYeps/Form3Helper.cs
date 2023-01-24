@@ -16,45 +16,33 @@ namespace YepYeps
         public Form3Helper()
         {
             InitializeComponent();
+            labelHelper.AutoEllipsis = true;
         }
 
         private void bReturn_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
-            form1.ShowDialog();
-            this.Close();
+            form1.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            string currentDirectory = Directory.GetCurrentDirectory();
-            var filePath = Path.Combine(currentDirectory, "pictures", "form3", "Jak_Działa_gra.txt");
-            //var fileText = File.ReadAllText(filePath);
-            //labelHelper.Text = fileText;
-            using (StreamReader sr = new StreamReader(filePath))
+            try
             {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    labelHelper.Text = line;
-                }
+                string currentDirectory = Directory.GetCurrentDirectory();
+                var filePath = Path.Combine(currentDirectory, "pictures", "form3", "Jak_Działa_gra.txt");
+                var fileText = File.ReadAllText(filePath);
+                labelHelper.Text = fileText;
+              
             }
+            catch (Exception ex) { MessageBox.Show("Error: " + ex.Message); }
         }
 
         private void test_Click(object sender, EventArgs e)
         {
-            string currentDirectory = Directory.GetCurrentDirectory();
-            var filePath = Path.Combine(currentDirectory, "pictures", "form3", "Jak_Działa_gra.txt");
-            //var fileText = File.ReadAllText(filePath);
-            //labelHelper.Text = fileText;
-            using (StreamReader sr = new StreamReader(filePath))
-            {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    labelHelper.Text = line;
-                }
-            }
+            
+            
         }
     }
 }

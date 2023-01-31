@@ -21,14 +21,14 @@ namespace YepYeps
         {
             Form2Gra form2= new Form2Gra();
             form2.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
             Form3Helper helper = new Form3Helper();
             helper.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)

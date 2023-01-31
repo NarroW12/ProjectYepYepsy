@@ -23,7 +23,7 @@ namespace YepYeps
         {
             Form1 form1 = new Form1();
             form1.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,16 +33,23 @@ namespace YepYeps
                 string currentDirectory = Directory.GetCurrentDirectory();
                 var filePath = Path.Combine(currentDirectory, "pictures", "form3", "Jak_Działa_gra.txt");
                 var fileText = File.ReadAllText(filePath);
-                labelHelper.Text = fileText;
-              
+                labelHelper.Text = "";
+                var timer = new System.Windows.Forms.Timer();
+                timer.Interval = 50; // co 50 milisekund
+                int charIndex = 0;
+                timer.Tick += (s, we) => {
+                    if (charIndex == fileText.Length)
+                    {
+                        timer.Stop();
+                    }
+                    labelHelper.Text += fileText[charIndex];
+                    charIndex++;
+                };
+                timer.Start();
             }
             catch (Exception ex) { MessageBox.Show("Error: " + ex.Message); }
         }
 
-        private void test_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
+        
     }
 }

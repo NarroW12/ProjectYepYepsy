@@ -72,9 +72,9 @@ namespace YepYeps
             this.labelHelper.ForeColor = System.Drawing.Color.White;
             this.labelHelper.Location = new System.Drawing.Point(0, 0);
             this.labelHelper.Name = "labelHelper";
-            this.labelHelper.Size = new System.Drawing.Size(88, 38);
+            this.labelHelper.Size = new System.Drawing.Size(421, 38);
             this.labelHelper.TabIndex = 1;
-            this.labelHelper.Text = "label1";
+            this.labelHelper.Text = "Kliknij mnie a opiszę ci wszystko";
             this.labelHelper.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form3Helper
